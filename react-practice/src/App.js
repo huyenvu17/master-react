@@ -1,16 +1,18 @@
-import logo from './logo.svg'
 import './App.css'
-
+import ComponentWillUnmountTest from './ComponentWillUnmountTest'
+import Header from './Header'
+import Test from './Test'
+import 'bootstrap/dist/css/bootstrap.css'
+import { UseContextComponent } from './UseContextComponent'
+import StudentManagement from './pages/StudentManagement'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>hello</p>
-        <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-          Learn React
-        </a>
-      </header>
+      {/* <Header />
+      <Test />
+      <ComponentWillUnmountTest /> */}
+      {/* <UseContextComponent /> */}
+      <StudentManagement />
     </div>
   )
 }
