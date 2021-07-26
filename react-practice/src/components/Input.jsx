@@ -16,6 +16,6 @@ export default function Input({ type = 'text', onChange, value, ...props }) {
 
 Input.propTypes = {
   value: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
-  onchange: PropTypes.func.isRequired,
+  onChange: PropTypes.func.isRequired,
   type: PropTypes.string
 }
