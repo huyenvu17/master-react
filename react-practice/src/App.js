@@ -5,6 +5,7 @@ import './App.css'
 import 'bootstrap/dist/css/bootstrap.css'
 //import { UseContextComponent } from './UseContextComponent'
 import StudentManagement from './pages/StudentManagement'
+import Register from './pages/Register'
 function App() {
   return (
     <div className="App">
@@ -12,7 +13,8 @@ function App() {
       <Test />
       <ComponentWillUnmountTest /> */}
       {/* <UseContextComponent /> */}
-      <StudentManagement />
+      {/* <StudentManagement /> */}
+      <Register />
     </div>
   )
 }
